@@ -1,0 +1,12 @@
+1655185264237	geckodriver	INFO	Listening on 127.0.0.1:62114
+1655185267391	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Hi\\AppData\\Local\\Temp\\rust_mozprofileNiEd7U"
+1655185273864	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Hi\\AppData\\Local\\Temp\\rust_mozprofileNiEd7U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62115/devtools/browser/2241466f-0ab5-4b6f-94ef-4c131dd1560b
+1655185292858	Marionette	INFO	Listening on port 62163
+Read port: 62163
+1655185293032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655185311352	Marionette	INFO	Stopped listening on port 62163
+[Parent 12728, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
