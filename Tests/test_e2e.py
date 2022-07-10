@@ -1,21 +1,22 @@
-# import time
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.support import expected_conditions
-# from selenium.webdriver.support.select import Select
-# from selenium.webdriver.support.wait import WebDriverWait
-# from PageObject.HomePage import HomePage
-# from PageObject.Proceedfile import ProceedPage
-# from Utilities.BaseClass import baseclass
-# from Utilities.promocodewait import webdriverwit
-#
-#
-# class Testone(baseclass):
-#     def test_e2eone(self):
-#         homepage = HomePage(self.driver)
-#         homepage.searchbar().send_keys("ber")
-#         time.sleep(2)
-#         buttons = homepage.addcartitem()
-#         for button in buttons:
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.wait import WebDriverWait
+from PageObject.HomePage import HomePage
+from PageObject.Proceedfile import ProceedPage
+from Utilities.BaseClass import baseclass
+from Utilities.promocodewait import webdriverwit
+
+i hate to complete the things whatever the situation 
+
+class Testone(baseclass):
+    def test_e2eone(self):
+        homepage = HomePage(self.driver)
+        homepage.searchbar().send_keys("ber")
+        time.sleep(2)
+        buttons = homepage.addcartitem()
+        for button in buttons:
 #             button.click()
 #         homepage.cartbuttonclick().click()
 #         placeorder = homepage.checkoutbutton()
