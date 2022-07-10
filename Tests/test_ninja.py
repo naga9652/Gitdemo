@@ -15,7 +15,7 @@ class Testninjaproject():
         driver.find_element(By.LINK_TEXT, "Phones & PDAs").click()
 
             NAGAMALLIA,K,
-
+            i love you
 
 
         driver.find_element(By.XPATH, "//img[@title='iPhone']").click()
